@@ -1,0 +1,89 @@
+// @include font-face(NotoSans,
+//   "~/assets/fonts/NotoSans",
+//   400,
+//   normal,
+//   ttf);
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --orange: #E08345;
+  --yellow: #f9e000;
+  --green: #2db400;
+  --gray: #999;
+  --gray1: #f2f2f2;
+  --gray2: #333;
+  --gray3: #ccc;
+  --gray4: #f9f9f9;
+  --cl-bd: rgb(245, 245, 245);
+  --blue: #518ACC;
+  --fs10: 10px;
+  --fs12: 12px;
+  --fs13: 13px;
+  --fs14: 14px;
+  --fs15: 15px;
+  --fs16: 16px;
+  --fs18: 18px;
+  --fs30: 30px;
+  --bd5: 5px;
+  --bd8: 8px;
+  --bd25: 25px;
+  --bd30: 30px;
+  // --ff-ntsan4: "notosans";
+}
+
+.fs10 {
+  font-size: var(--fs10);
+}
+
+.fs12 {
+  font-size: var(--fs12);
+}
+
+.fs13 {
+  font-size: var(--fs13);
+}
+
+.fs14 {
+  font-size: var(--fs14);
+}
+
+.fs15 {
+  font-size: var(--fs15);
+}
+
+.fs30 {
+  font-size: var(--fs30);
+}
+
+.text-danger {
+  color: var(--red);
+}
+
+.text-dark {
+  color: var(--gray2);
+}
+
+.ff-scd4 {
+  font-family: var(--ff-scd4) !important;
+}
+
+.ff-scd5 {
+  font-family: var(--ff-scd5) !important;
+}
+
+.ff-scd6 {
+  font-family: var(--ff-scd6) !important;
+}
+
+.bd8 {
+  @include border-radius(var(--bd8) !important);
+}
+
+.bd13 {
+  @include border-radius(var(--bd13) !important);
+}
+
+@function calc-em($target-px, $context: 20) {
+  @return ($target-px / $context) * 1em;
+}

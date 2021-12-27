@@ -1,0 +1,149 @@
+.main-layout {
+  background-color: #E08345;
+  width: 100%;
+
+  .logo {
+    padding: 30px;
+
+    @media all and(max-width: 600px) {
+      padding: 16px !important;
+
+    }
+  }
+
+  .body-container {
+    border-radius: 30px;
+    width: 98%;
+    margin-left: 0px !important;
+    margin-right: 30px !important;
+    margin-top: 30px;
+    height: 94vh !important;
+    padding: 30px !important;
+    overflow-y: auto !important;
+    background-color: white !important;
+
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+
+    @media all and (max-width: 968px) {
+      width: 98.5%;
+      padding: 16px !important;
+      margin: 6px !important;
+      height: auto !important;
+      min-height: 90vh !important;
+      margin-left: 6px !important;
+    }
+
+    @media all and (max-width: 600px) {
+      width: 96.5% !important;
+    }
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .body-container::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.avatar-wrapper {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  border: 1px solid var(--gray1);
+  @include border-radius(50%);
+  overflow: hidden;
+
+  input {
+    font-size: 100px;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+
+  span {
+    display: inline-block;
+    margin-top: 14px;
+    font-size: var(--fs10);
+    color: var(--gray);
+  }
+
+  .img {
+    @extend .ic;
+    width: 100px;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    z-index: 5;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .v-input {
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    padding-top: 0;
+  }
+
+  .v-input__slot,
+  .v-input__control,
+  .v-text-field__slot {
+    height: 100%;
+  }
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 36px;
+
+  @media all and(max-width: 767px) {
+    flex-direction: column !important;
+    align-items: flex-start;
+
+  }
+
+  .tabs {
+    display: flex !important;
+    padding-left: 36px !important;
+
+    @media all and(max-width: 767px) {
+      padding-left: 0px !important;
+      padding-top: 6px !important;
+
+    }
+  }
+
+
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.link {
+  height: 36px !important;
+  background-color: var(--orange);
+}
+
+.btn-light {
+  border-radius: 8px !important;
+  background-color: #fff8f2 !important;
+  color: #E08345 !important;
+  font-weight: 500 !important;
+}
+
+.btn-danger {
+  border-radius: 8px !important;
+  background-color: rgb(255, 244, 244) !important;
+  color: red !important;
+  font-weight: 500 !important;
+}

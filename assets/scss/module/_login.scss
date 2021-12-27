@@ -1,0 +1,100 @@
+.login-container {
+
+  display: flex;
+  justify-content: center;
+
+  .v-sheet.v-card {
+    width: 480px !important;
+    padding: 50px 12px 60px 12px;
+    border-radius: 14px !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+
+    @media all and(max-width: 767px) {
+      padding: 35px 0px 40px 0px !important;
+      width: 340px !important;
+    }
+  }
+
+  &__title {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700 !important;
+    color: var(--orange);
+    font-size: 62px !important;
+
+    @media all and(max-width: 767px) {
+      font-size: 48px !important;
+    }
+  }
+
+  &__forgot {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700 !important;
+    color: var(--orange);
+    font-size: 40px !important;
+
+    @media all and(max-width: 767px) {
+      font-size: 48px !important;
+    }
+  }
+
+  &__label {
+    margin-bottom: 12px !important;
+    font-size: 14px;
+    font-weight: 600 !important;
+  }
+
+  &__link {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    font-size: 12px !important;
+    text-decoration: underline;
+    color: var(--gray2) !important;
+  }
+
+  .v-btn {
+    margin-top: 24px !important;
+    background-color: #E08345 !important;
+    width: 100% !important;
+    height: 44px !important;
+    color: #fff !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+  }
+
+  .v-text-field--outlined fieldset {
+    height: 48px !important;
+    border-color: #E8E8E8 !important;
+    box-shadow:
+      inset 0px 8px 8px -10px #CCC, rgba(0, 0, 0, 0.1) 1px 1px 2px,
+      inset 0px -1px 8px -10px #CCC !important;
+  }
+
+  &__textend {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+    span {
+      font-size: 15px !important;
+    }
+
+    .need--account {
+      font-weight: 400 !important;
+      padding-right: 6px;
+    }
+
+    .sign--up {
+      padding-left: 6px;
+      font-weight: 600 !important;
+      color: #E08345 !important;
+    }
+
+  }
+
+
+}

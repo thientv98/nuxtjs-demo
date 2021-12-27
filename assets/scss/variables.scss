@@ -1,0 +1,142 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+@import 'module/font.scss';
+$main: 'Noto Sans CJK KR',
+sans-serif;
+
+$body-font-family: $main,
+sans-serif !default;
+$font-size-root: 14px;
+$grid-gutter: 14px;
+$container-max-widths: ("sm": 600px,
+  "md": 600px,
+  "lg": 600px,
+  "xl": 600px);
+$material-light: ("text-color": "#999"
+);
+$app-bar-elevation: 0;
+$text-field-filled-full-width-outlined-slot-min-height: 40px;
+$footer-padding: 0;
+
+$btn-sizes: ("x-small": 20,
+  "small": 26,
+  "default": 36,
+  "large": 40,
+  "x-large": 50);
+
+$btn-font-sizes: ("x-small": 10px,
+  "small": 12px,
+  "default": 14px,
+  "large": 14px,
+  "x-large": 18px);
+
+$btn-border-radius: 5px;
+$btn-rounded-border-radius: 30px;
+$text-field-outlined-fieldset-border: 1px solid #E08345;
+$sheet-border-radius: 13px;
+$navigation-drawer-border-width: 0px;
+
+$orange: ("base": #E08345,
+  "lighten-5": #ffebee,
+  "lighten-4": #ffcdd2,
+  "lighten-3": #ef9a9a,
+  "lighten-2": #e57373,
+  "lighten-1": #ef5350,
+  "darken-1": #e53935,
+  "darken-2": #d32f2f,
+  "darken-3": #c62828,
+  "darken-4": #b71c1c,
+  "accent-1": #ff8a80,
+  "accent-2": #ff5252,
+  "accent-3": #ff1744,
+  "accent-4": #d50000);
+
+$grey: ("base": #f2f2f2,
+  "lighten-1": #333333,
+  "lighten-2": #999999,
+  "lighten-3": #f9f9f9,
+  "lighten-4": #eeeeee,
+  "lighten-5": #bdbdbd,
+  "darken-1": #757575,
+  "darken-2": #616161,
+  "darken-3": #424242,
+  "darken-4": #212121);
+
+$headings: ("h1": ("size": 30px,
+    "weight": 400,
+    "line-height": 1.3,
+    "font-family": "scdream6",
+    "text-transform": false),
+  "h2": ("size": 18px,
+    "weight": 400,
+    "line-height": 1.3,
+    "font-family": "scdream6",
+    "text-transform": false),
+  "h3": ("size": 14px,
+    "weight": 400,
+    "line-height": 1.3,
+    "font-family": "scdream6",
+    "text-transform": false),
+  "h4": ("size": 2.125rem,
+    "weight": 400,
+    "line-height": 2.5rem,
+    "letter-spacing": 0.0073529412em,
+    "font-family": "scdream4",
+    "text-transform": false),
+  "h5": ("size": 1.5rem,
+    "weight": 400,
+    "line-height": 2rem,
+    "letter-spacing": normal,
+    "font-family": "scdream4",
+    "text-transform": false),
+  "h6": ("size": 1.25rem,
+    "weight": 500,
+    "line-height": 2rem,
+    "letter-spacing": 0.0125em,
+    "font-family": "scdream4",
+    "text-transform": false),
+  "subtitle-1": ("size": 1rem,
+    "weight": normal,
+    "line-height": 1.75rem,
+    "letter-spacing": 0.009375em,
+    "font-family": "scdream4",
+    "text-transform": false),
+  "subtitle-2": ("size": 0.875rem,
+    "weight": 500,
+    "line-height": 1.375rem,
+    "letter-spacing": 0.0071428571em,
+    "font-family": "scdream4",
+    "text-transform": false),
+  "body-1": ("size": 12px,
+    "weight": 400,
+    "line-height": 1.3,
+    "font-family": "scdream5",
+    "text-transform": false),
+  "body-2": ("size": 10px,
+    "weight": 400,
+    "line-height": 1.3,
+    "font-family": "scdream4",
+    "text-transform": false),
+  "button": ("size": 0.875rem,
+    "weight": 500,
+    "line-height": 2.25rem,
+    "letter-spacing": 0.0892857143em,
+    "font-family": "scdream4",
+    "text-transform": uppercase),
+  "caption": ("size": 0.75rem,
+    "weight": 400,
+    "line-height": 1.25rem,
+    "letter-spacing": 0.0333333333em,
+    "font-family": "scdream4",
+    "text-transform": false),
+  "overline": ("size": 0.75rem,
+    "weight": 500,
+    "line-height": 2rem,
+    "letter-spacing": 0.1666666667em,
+    "font-family": "scdream4",
+    "text-transform": uppercase));
+
+
+$alert-border-radius: 20px;

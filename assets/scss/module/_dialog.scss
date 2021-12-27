@@ -1,0 +1,24 @@
+.v-dialog {
+  .new-room {
+    padding: 24px !important;
+
+    @media all and(max-width: 767px) {
+      padding: 16px !important;
+
+    }
+
+    .v-text-field {
+      width: 300px !important;
+
+      @media all and(max-width: 767px) {
+        width: auto !important;
+
+      }
+    }
+
+    .list-container {
+      height: 40vh !important;
+      overflow-y: auto !important;
+    }
+  }
+}
